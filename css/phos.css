@@ -1,0 +1,29 @@
+
+#content{
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: rgba(0, 0, 0, 0.4),
+                 rgba(0, 0, 0, 0.25),
+                rgba(0, 0, 0, 0.15);
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-color:  #f5f4f5;
+}
+h3{
+    font-weight: 500;
+    color: black;
+}
+hr{
+    width: 450px;
+} 
+embed{
+    width: 250px;
+    padding: 2px;
+}
+.btn .btn-default .btn-lg :hover{
+    background-color: brown;
+    color: white;
+}
+
