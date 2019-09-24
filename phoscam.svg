@@ -252,7 +252,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="250"
+     inkscape:cx="200"
      inkscape:cy="560"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -288,7 +288,7 @@
        rx="0"
        ry="24.490023" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03266745;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:94.79055786;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter86)"
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.03266745;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:94.79055786;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter86)"
        id="path14"
        sodipodi:type="arc"
        sodipodi:cx="91.092262"
@@ -300,14 +300,14 @@
        sodipodi:open="true"
        d="M 138.45041,149.22249 A 51.026787,48.758926 0 0 1 73.194467,176.72964 51.026787,48.758926 0 0 1 42.90607,115.02697 51.026787,48.758926 0 0 1 106.7607,84.665124 51.026787,48.758926 0 0 1 140.00336,144.96309" />
     <path
-       d="M 137.19284,146.12851 A 48.882504,46.113098 0 0 1 75.599171,175.00803 48.882504,46.113098 0 0 1 44.368073,117.19694 48.882504,46.113098 0 0 1 105.33431,87.155986 48.882504,46.113098 0 0 1 137.79022,144.36355"
+       d="M 140.69308,143.92896 A 48.882504,46.113098 0 0 1 79.099407,172.80848 48.882504,46.113098 0 0 1 47.86831,114.99738 48.882504,46.113098 0 0 1 108.83454,84.956431 48.882504,46.113098 0 0 1 141.29046,142.164"
        sodipodi:open="true"
        sodipodi:end="0.28897067"
        sodipodi:start="0.32915164"
        sodipodi:ry="46.113098"
        sodipodi:rx="48.882504"
-       sodipodi:cy="131.2229"
-       sodipodi:cx="90.934502"
+       sodipodi:cy="129.02335"
+       sodipodi:cx="94.434738"
        sodipodi:type="arc"
        id="path20"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.02570673;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:94.79055786;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter72)" />

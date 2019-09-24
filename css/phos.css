@@ -1,29 +1,219 @@
-
-#content{
-    text-align: center;
-    padding-top: 10%;
-    text-shadow: rgba(0, 0, 0, 0.4),
-                 rgba(0, 0, 0, 0.25),
-                rgba(0, 0, 0, 0.15);
-}
-body{
-    background-size: cover;
-    background-position: center;
-    background-color:  #f5f4f5;
-}
-h3{
-    font-weight: 500;
-    color: black;
-}
-hr{
-    width: 450px;
-} 
-embed{
-    width: 250px;
-    padding: 2px;
-}
-.btn .btn-default .btn-lg :hover{
-    background-color: brown;
-    color: white;
+@font-face {
+  font-family: 'caveat';
+  src: URL('/font-Caveat/') format('truetype');
 }
 
+body {
+  background-size: cover;
+  background-position: center;
+}
+
+
+#brandimage {
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+img.pbutton {
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 65px;
+  max-width: 250px;
+}
+
+.pbutton:hover {
+  opacity: 0.85;
+}
+
+/* .log{
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 50%);
+  color: white;
+  border-style: double;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 2px;
+  padding: 10px 22px;
+  margin: 0 auto;
+}
+
+.log:hover{
+  background-color: hsl(0, 0%, 0%);
+} */
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(7, 7, 7, 0.1);
+  margin: 5px auto;
+  /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type=submit]:hover {
+  background-color: #888;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #000000;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 10%;
+  border: ipx solid #fff;
+  border-radius: 25px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span#psw {
+  float: right;
+  padding-top: 16px;
+  text-decoration: none;
+}
+
+span#cra {
+  font-family: cursive;
+  padding-left: 20px
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+    font-size: 12px;
+    font-family: cursive;
+  }
+
+  span#cra {
+    font-family: cursive;
+    font-size: 12px;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+label {
+  color: rgb(183, 182, 182);
+}
